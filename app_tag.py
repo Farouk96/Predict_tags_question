@@ -1,5 +1,5 @@
 #pip install -U pip
-pip instal nltk
+#pip install nltk
 import streamlit as st
 import numpy as np
 import re
