@@ -1,4 +1,5 @@
-#pip install -U pip
+python3.7 -m venv ~/.streamlit_ve
+source ~/.streamlit_ve/bin/activate
 pip install -U pip
 pip install nltk
 import streamlit as st
