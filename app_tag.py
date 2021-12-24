@@ -1,4 +1,4 @@
-!pip install -U pip
+pip install -U pip
 import streamlit as st
 import numpy as np
 import re
