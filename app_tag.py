@@ -3,7 +3,7 @@ os.system("pip install -U pip")
 import streamlit as st
 import numpy as np
 import re
-import nltk
+#import nltk
 nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('punkt')
