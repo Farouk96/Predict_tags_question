@@ -1,10 +1,10 @@
 import os
 os.system("pip install -U pip")
-$ which python python2 python3
+which python python2 python3
 /usr/bin/python
 /usr/local/bin/python3
 
-$ which pip pip2 pip3
+which pip pip2 pip3
 /usr/local/bin/pip
 /usr/local/bin/pip2
 /usr/local/bin/pip3
