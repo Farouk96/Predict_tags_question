@@ -4,7 +4,6 @@ os.system("pip install nltk")
 import streamlit as st
 import numpy as np
 import re
-from bs4 import BeautifulSoup
 import nltk
 nltk.download('stopwords')
 nltk.download('wordnet')
