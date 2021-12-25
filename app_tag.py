@@ -12,7 +12,6 @@ from nltk.tokenize import ToktokTokenizer
 from nltk.tokenize import word_tokenize
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import stopwords
-from string import punctuation
 import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 from scipy.sparse import hstack
