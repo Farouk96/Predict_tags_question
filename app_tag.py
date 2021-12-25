@@ -1,6 +1,6 @@
 import os
 os.system("pip install -U pip")
-os.system("pip install nltk")
+pip install nltk
 import streamlit as st
 import numpy as np
 import re
