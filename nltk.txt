@@ -1,3 +1,6 @@
+corpus
+punk
+stem
 stopwords
+tokenize
 wordnet
-punkt
