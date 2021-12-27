@@ -1,6 +1,2 @@
 corpus
-punk
-stem
-stopwords
 tokenize
-wordnet
