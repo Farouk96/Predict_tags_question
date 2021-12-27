@@ -1,1 +1,1 @@
-web: gunicorn Streamlit_tag_questions:app
+web: run app_tag.py & npx localtunnel --port 8501
