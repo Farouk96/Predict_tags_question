@@ -1,14 +1,14 @@
 import streamlit as st
 import numpy as np
 import re
-import nltk
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('punkt')
+#import nltk
+#nltk.download('stopwords')
+#nltk.download('wordnet')
+#nltk.download('punkt')
 from nltk.tokenize import ToktokTokenizer
 from nltk.tokenize import word_tokenize
 from nltk.stem.wordnet import WordNetLemmatizer
-from nltk.corpus import stopwords
+from nltk.corpus import stopwords,wordnet,punkt
 import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 from scipy.sparse import hstack
