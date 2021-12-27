@@ -1,1 +1,3 @@
-corpus
+stopwords
+wordnet
+punkt
