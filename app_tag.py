@@ -212,11 +212,6 @@ else:
   #Download a multi_label
   with open('Multi_label.pkl','rb') as H:
     multi_label =pickle.load(H)
-  pred =list(model.predict(X))
-  R= 159-len(pred)
-  for i in range(R):
-    pred.append(0)
-  pred= np.array(pred)
-  #pred.reshape(pred.shape[1],1)
+  pred =model.predict(X)
   st.write(multi_label.inverse_transform(pred))
   
