@@ -195,9 +195,9 @@ else:
     j = lemitizeWords(j) 
     j = stopWordsRemove(j)
   #Download a vectorizer   
-  with open('github/Farouk96/Predict_tags_question/Vectorizer question1','rb') as S:
+  with open('Vectorizer question1','rb') as S:
     vectorizer1=pickle.load(S)
-  with open('github/Farouk96/Predict_tags_question/Vectorizer question2','rb') as T:
+  with open('Vectorizer question2','rb') as T:
     vectorizer2=pickle.load(T)   
   title=[title]
   qst=[qst]
@@ -206,11 +206,11 @@ else:
   X= hstack([qst,title])
 
   #Download a best model
-  with open('github/Farouk96/Predict_tags_question/Best tager questions','rb') as f:
+  with open('Best tager questions','rb') as f:
     model =pickle.load(f)
   st.subheader('Tags:')
   #Download a multi_label
-  with open('github/Farouk96/Predict_tags_question/Multi_label','rb') as H:
+  with open('Multi_label','rb') as H:
     multi_label =pickle.load(H)
   pred =list(model.predict(X))
   R= 159-len(pred)
